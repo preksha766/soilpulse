@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Agriculture Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><B><U> SOIL PULSE </U></B></h1>
+        <p>Your AI-powered farm assistant</p>
+    </header>
+
+    <section class="dashboard">
+        <h2>Real-Time Farm Data</h2>
+        <div class="farm-data">
+            <p><strong>Soil Moisture: </strong><span id="soil_moisture">--</span>%</p>
+            <p><strong>Nutrient Level: </strong><span id="nutrient_level">--</span></p>
+            <p><strong>Temperature: </strong><span id="temperature">--</span>°C</p>
+            <p><strong>Weather Forecast: </strong><span id="weather">--</span></p>
+        </div>
+    </section>
+
+    <section class="recommendations">
+        <h2>AI Recommendations</h2>
+        <p id="recommendation">Loading...</p>
+    </section>
+
+    <section class="market">
+        <h2>AI Market Insights</h2>
+        <div class="market-data">
+            <p><strong>Predicted Demand: </strong><span id="predicted_demand">--</span></p>
+            <p><strong>Crop Price: </strong><span id="crop_price">--</span> USD</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Precision Agriculture Toolkit. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="app.js"></script>
+</body>
+</html>
